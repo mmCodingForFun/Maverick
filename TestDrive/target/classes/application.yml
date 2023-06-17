@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: interview
+  server:
+    port: 9090
+movieUrl: https://gateway.maverik.com/movie/api/movie/title/REPLACE_ME?source=web
+singleRowUrl: https://gateway.maverik.com/movie/api/movie/REPLACE_ME?source=web
+mongoUrl: mongodb:://localhost:10001
+mongoName: myMongodb
